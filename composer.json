@@ -1,10 +1,20 @@
 {
     "name": "artem_r/hexlet-php",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "authors": [
         {
             "name": "ArtemRyz",
             "email": "RyzArtem@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }
