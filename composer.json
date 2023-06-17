@@ -11,10 +11,14 @@
             "email": "RyzArtem@yandex.ru"
         }
     ],
+    "scripts": {
+        "phpcs": "phpcs"
+        },
     "require": {
         "tightenco/collect": "^9.52"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "^3.7"
     }
 }
